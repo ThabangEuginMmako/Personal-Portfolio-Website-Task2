@@ -38,6 +38,10 @@ img {
     width: 100%;
 }
 
+.bg-base {
+    background-color: var(--color-base);
+}
+
 /*NAVBAR*/
 
 @media (min-width: 992px) {
@@ -94,5 +98,4 @@ img {
     transform: scale(1.1); 
     border-radius: 10%; 
 }
-
 
