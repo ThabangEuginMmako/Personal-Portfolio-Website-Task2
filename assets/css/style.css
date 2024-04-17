@@ -42,6 +42,14 @@ img {
     background-color: var(--color-base);
 }
 
+.shadow-effect {
+    transition: all 0.5s;
+}
+
+.shadow-effect:hover {
+    box-shadow: -6px 6px 0 0 var(--color-brand);
+}
+
 /*NAVBAR*/
 
 @media (min-width: 992px) {
