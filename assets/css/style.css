@@ -50,6 +50,9 @@ img {
     box-shadow: -6px 6px 0 0 var(--color-brand);
 }
 
+
+
+
 /*NAVBAR*/
 
 @media (min-width: 992px) {
@@ -106,4 +109,18 @@ img {
     transform: scale(1.1); 
     border-radius: 10%; 
 }
+
+
+.text-brand {
+    color: var(--color-brand);
+
+/*DIVIDER-LINE*/
+
+.section-divider {
+    border: none; /* Remove default border */
+    height: 1px; /* Set the height of the divider line */
+    background-color: #ccc; /* Set the color of the divider line */
+    margin: 20px 10; /* Add some margin above and below the divider line */
+}
+
 
